@@ -1,0 +1,37 @@
+/* challenge modal css */
+
+.challenge-modal-tab {
+  display: flex;
+  flex-direction: row;
+}
+
+.challenge-modal-tab-item {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  /* background-color: transparent; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.challenge-modal-tab-item-active {
+  /* background-color: #1e2126; */
+}
+
+.bg-challenge-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 17 5 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-modal {
+    width: 700px !important;
+  }
+
+  .bg-challenge-100 {
+    width: 80%;
+  }
+}
